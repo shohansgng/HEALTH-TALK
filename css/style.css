@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+    margin: 0;
+}
+.container{
+    padding: 0;
+}
+.row {
+    --bs-gutter-x: o rem;
+}
+
+
+/* HEADER PART GOES HERE  */
+#header {
+    background-color: rgb(90, 90, 238);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pd {
+    padding: 0px;
+}
+
+
+.header_left_icon i{
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: rgb(90, 90, 238);
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.header_left_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.header_middle p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header_right a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.header_left_icon{
+    padding-right: 44px;
+}
+/* HEADER PART ENDS HERE  */
+/* NAVBAR PART GOES HERE  */
+.logo_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 20px;
+    color: rgb(90, 90, 238);
+    text-transform: capitalize;
+}
+.last_menu a{
+ background-color:rgb(90, 90, 238)!important ;
+ padding-left: 20px !important;
+ padding-right: 20px !important;
+ color: white!important;
+ border-radius: 10px;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item a{
+    color: rgb(0, 0, 0);
+    transition: all linear .3s;
+}
+.navbar i{
+    font-size: 20px;
+}
+/* NAVBAR PART ENDS HERE  */
+/* BANNER PART GOES HERE  */
+#banner{
+    background: url('../images/about-back.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 57px;
+    padding-bottom: 100px;
+    
+}
+.space{
+    padding: 65px 10px 0px 10px;
+}
+.banner-text a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 33px;
+    color: black;
+    text-transform: capitalize; 
+    padding: 20px; 
+    transition: all linear .3s;
+}
+.banner-text a:hover{
+    color: rgb(90, 90, 238);
+}
+.intro-img-pro {
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    background-color:rgb(90, 90, 238) ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+}
+.intro-img{
+    height: 150px;
+    width: 150px;
+    line-height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 20px 0px;
+}
+.intro-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.intro-icons{
+    padding-bottom: 20px ;
+}
+.intro-icons i{
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: #5a5aee;
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px;
+}
+p span,a{
+ color: white;
+}
+p i{
+    padding-right: 5px;
+    color: white;
+}
+.intro-text-space{
+    padding-left: 30px;
+}
+.banner-intro-text{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px 100px 0 100px;
+    box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+}
+.banner-intro-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 33px;
+    color: rgb(36, 15, 224);
+    text-transform: capitalize; 
+    padding-bottom: 40px;
+}
+.banner-intro-text h3{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    color: rgb(16, 13, 192);
+    text-transform: capitalize; 
+}
+.banner-intro-text p{
+    padding-bottom: 40px;
+}
+/* BANNER PART ENDS HERE  */
+/* GALLERY PART GOES HERE  */
+#gallery{
+    background: url('../images/video.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    
+}
+.gallery-overlay{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(1,0,36);
+background: linear-gradient(90deg, rgba(1, 0, 36, 0.664) 0%, rgba(90, 90, 238, 0.582) 0%, rgba(0, 213, 255, 0.575) 100%);
+    top: 0;
+    left: 0;
+    padding: 80px 0;
+    z-index: 99;
+}
+.gallery-text h3{
+    color: rgb(239, 239, 243); 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 26px; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+.gallery-text h2{
+    color: rgb(239, 239, 243); 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* GALLERY PART ENDS HERE  */
+#contact{
+    padding: 75px;
+}
+.contact-head {
+    padding-bottom: 57px;
+}
+.contact-head h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 33px;
+    color: rgb(36, 15, 224);
+    text-transform: capitalize; 
+}
+.contact-img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.contact-icon-text{
+    padding-left: 20px;
+}
+.contact-text{
+    padding: 0 20px;
+}
+.contact-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 20px;
+    color: rgb(14, 14, 15);
+    text-transform: capitalize; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact-icon i{
+    color: rgb(90, 90, 238);
+}
+.contact-main{
+    padding-bottom: 15px;
+}
+.contact-bottom{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 5px 30px;
+    background-color: rgb(90, 90, 238);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 16px;
+    text-transform: capitalize; 
+}
+.contact-items{
+    background-color: #fff;
+    box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px -1px 14px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+}
+.contact-padding{
+    padding-left:  10px;
+    padding-right:  10px;
+
+}
+/* FOOTER PART GOES HERE  */
+footer {
+    padding: 65px 0px 20px 0px;
+    background: rgb(1,0,36);
+background: linear-gradient(90deg, rgba(1, 0, 36, 0.664) 0%, rgba(90, 90, 238, 0.671) 0%, rgba(68, 0, 255, 0.918) 100%);
+color: #fff;
+}
+.footer-top{
+    border-bottom: 2px solid rgb(170, 162, 162);
+}
+.footer-top h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 26px;
+    color: rgb(234, 234, 240);
+    text-transform: capitalize; 
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.footer-icons {
+    padding-top: 20px;
+}
+.footer-icons i{
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: rgb(90, 90, 238);
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 16px;
+    color: rgb(234, 234, 240);
+    text-transform: capitalize; 
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.footer-main{
+    padding-bottom: 15px;
+}
+.footer-main-icon i{
+    color: rgb(235, 235, 243);
+}
+.footer-icon-text{
+    padding-left: 20px;
+}
+.footer-padding{
+    padding-left: 20px;
+}
+.padding-space{
+    padding: 44px 0px 20px 20px;
+}
+.footer-left{
+    padding-left: 20px;
+}
+.footer-left h3{
+ padding-left: 20px;
+}
+.footer-bottom p{
+padding-top: 20px;
+font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    font-size: 16px;
+    color: rgb(234, 234, 240);
+    text-transform: capitalize; 
+}
+
+/* HEADER PART GOES HERE  */
+/* HEADER PART GOES HERE  */
+/* HEADER PART GOES HERE  */
